@@ -1,0 +1,14 @@
+{% extends 'pages/base.html' %}
+{% block title %}
+    HomePage 
+{% endblock %}
+
+
+{% block content %}
+    {% for values  in  list %}
+
+    <h1>{{ values }}</h1>
+    
+    
+    {% endfor %}
+{% endblock %}
